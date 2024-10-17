@@ -9,7 +9,7 @@ import streamlit as st
 # Título de la aplicación
 st.title("Clasificación con ExtraTrees Irvin Morales 343423")
 
-df = pd.read_csv('/Wholesale customers data.csv')
+df = pd.read_csv('Wholesale customers data.csv')
 df.columns = df.columns.str.strip()
 
 st.write("Datos cargados:")
